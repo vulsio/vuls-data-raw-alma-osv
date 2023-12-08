@@ -1,0 +1,214 @@
+{
+	"schema_version": "1.6.0",
+	"id": "ALBA-2021:4502",
+	"modified": "2021-11-12T10:21:01Z",
+	"published": "2021-11-09T09:35:28Z",
+	"summary": "glusterfs bug fix and enhancement update",
+	"details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "glusterfs"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0-56.4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2021:4502.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "glusterfs-api"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0-56.4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2021:4502.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "glusterfs-api-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0-56.4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2021:4502.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "glusterfs-cli"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0-56.4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2021:4502.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "glusterfs-client-xlators"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0-56.4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2021:4502.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "glusterfs-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0-56.4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2021:4502.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "glusterfs-fuse"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0-56.4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2021:4502.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "glusterfs-libs"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0-56.4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2021:4502.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "glusterfs-rdma"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0-56.4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2021:4502.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://errata.almalinux.org/8/ALBA-2021-4502.html"
+		}
+	]
+}

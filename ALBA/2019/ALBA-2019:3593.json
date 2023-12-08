@@ -1,0 +1,104 @@
+{
+	"schema_version": "1.6.0",
+	"id": "ALBA-2019:3593",
+	"modified": "2021-08-11T08:54:00Z",
+	"published": "2019-11-05T18:05:13Z",
+	"summary": "ipset bug fix and enhancement update",
+	"details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "ipset"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.1-1.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2019:3593.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "ipset-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.1-1.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2019:3593.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "ipset-libs"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.1-1.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2019:3593.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "ipset-service"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.1-1.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2019:3593.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://errata.almalinux.org/8/ALBA-2019-3593.html"
+		}
+	]
+}

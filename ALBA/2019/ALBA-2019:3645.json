@@ -1,0 +1,82 @@
+{
+	"schema_version": "1.6.0",
+	"id": "ALBA-2019:3645",
+	"modified": "2019-11-05T18:10:26Z",
+	"published": "2019-11-05T18:10:33Z",
+	"summary": "gmp bug fix and enhancement update",
+	"details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "gmp"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:6.1.2-10.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2019:3645.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "gmp-c++"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:6.1.2-10.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2019:3645.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "gmp-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:6.1.2-10.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2019:3645.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://errata.almalinux.org/8/ALBA-2019-3645.html"
+		}
+	]
+}

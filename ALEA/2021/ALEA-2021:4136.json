@@ -1,0 +1,516 @@
+{
+	"schema_version": "1.6.0",
+	"id": "ALEA-2021:4136",
+	"modified": "2021-11-12T10:21:01Z",
+	"published": "2021-11-09T09:00:45Z",
+	"summary": "java-17-openjdk bug fix and enhancement update",
+	"details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-demo"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-demo-fastdebug"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-demo-slowdebug"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-devel-fastdebug"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-devel-slowdebug"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-fastdebug"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-headless"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-headless-fastdebug"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-headless-slowdebug"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-javadoc"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-javadoc-zip"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-jmods"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-jmods-fastdebug"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-jmods-slowdebug"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-slowdebug"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-src"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-src-fastdebug"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-src-slowdebug"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-static-libs"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-static-libs-fastdebug"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-17-openjdk-static-libs-slowdebug"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:17.0.0.0.35-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2021:4136.json"
+			}
+		}
+	]
+}

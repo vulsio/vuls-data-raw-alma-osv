@@ -1,0 +1,754 @@
+{
+	"schema_version": "1.6.0",
+	"id": "ALSA-2021:2360",
+	"modified": "2021-06-09T11:21:04Z",
+	"published": "2021-06-09T11:21:04Z",
+	"related": [
+		"CVE-2021-32027",
+		"CVE-2021-32028"
+	],
+	"summary": "Important: postgresql:9.6 security update",
+	"details": "PostgreSQL is an advanced object-relational database management system (DBMS).\n\nThe following packages have been upgraded to a later upstream version: postgresql (9.6.22)\n\nSecurity Fix(es):\n\n* postgresql: Buffer overrun from integer overflow in array subscripting calculations (CVE-2021-32027)\n\n* postgresql: Memory disclosure in INSERT ... ON CONFLICT ... DO UPDATE (CVE-2021-32028)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.5.0+58+52470387"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-contrib"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.5.0+58+52470387"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-contrib"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-contrib"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-docs"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-docs"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-docs"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.5.0+58+52470387"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-plperl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-plperl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.5.0+58+52470387"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-plperl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-plpython3"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-plpython3"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.5.0+58+52470387"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-plpython3"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-pltcl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-pltcl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.5.0+58+52470387"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-pltcl"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-server"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.5.0+58+52470387"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-server"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-server"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-server-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-server-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-server-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.5.0+58+52470387"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-static"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-static"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.5.0+58+52470387"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-static"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-test"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-test"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-test"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.5.0+58+52470387"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-test-rpm-macros"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-test-rpm-macros"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.5.0+58+52470387"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "postgresql-test-rpm-macros"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2021:2360.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://errata.almalinux.org/8/ALSA-2021-2360.html"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://vulners.com/cve/CVE-2021-32027"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://vulners.com/cve/CVE-2021-32028"
+		}
+	]
+}

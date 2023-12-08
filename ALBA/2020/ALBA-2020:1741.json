@@ -1,0 +1,38 @@
+{
+	"schema_version": "1.6.0",
+	"id": "ALBA-2020:1741",
+	"modified": "2021-11-12T10:20:55Z",
+	"published": "2020-04-28T09:10:54Z",
+	"summary": "python-reportlab bug fix and enhancement update",
+	"details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "python3-reportlab"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.4.0-8.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2020:1741.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://errata.almalinux.org/8/ALBA-2020-1741.html"
+		}
+	]
+}

@@ -1,0 +1,97 @@
+{
+	"schema_version": "1.6.0",
+	"id": "ALSA-2023:4350",
+	"modified": "2023-08-02T13:06:25Z",
+	"published": "2023-08-01T00:00:00Z",
+	"related": [
+		"CVE-2023-32681"
+	],
+	"summary": "Moderate: python-requests security update",
+	"details": "The python-requests package contains a library designed to make HTTP requests easy for developers.\n\nSecurity Fix(es):\n\n* python-requests: Unintended leak of Proxy-Authorization header (CVE-2023-32681)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "python3-requests"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.25.1-7.el9_2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:4350.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "python3-requests+security"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.25.1-7.el9_2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:4350.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "python3-requests+socks"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.25.1-7.el9_2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:4350.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://access.redhat.com/errata/RHSA-2023:4350"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://access.redhat.com/security/cve/CVE-2023-32681"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://bugzilla.redhat.com/2209469"
+		},
+		{
+			"type": "ADVISORY",
+			"url": "https://errata.almalinux.org/9/ALSA-2023-4350.html"
+		}
+	]
+}

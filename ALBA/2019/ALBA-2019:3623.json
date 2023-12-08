@@ -1,0 +1,60 @@
+{
+	"schema_version": "1.6.0",
+	"id": "ALBA-2019:3623",
+	"modified": "2021-11-12T10:20:55Z",
+	"published": "2019-11-05T18:08:01Z",
+	"summary": "NetworkManager bug fix and enhancement update",
+	"details": "An update for NetworkManager is now available for AlmaLinux",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "NetworkManager-libreswan"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.2.10-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2019:3623.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "NetworkManager-libreswan-gnome"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.2.10-4.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALBA-2019:3623.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://errata.almalinux.org/8/ALBA-2019-3623.html"
+		}
+	]
+}

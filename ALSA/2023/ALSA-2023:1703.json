@@ -1,0 +1,625 @@
+{
+	"schema_version": "1.6.0",
+	"id": "ALSA-2023:1703",
+	"modified": "2023-04-20T14:34:53Z",
+	"published": "2023-04-11T00:00:00Z",
+	"related": [
+		"CVE-2023-0386"
+	],
+	"summary": "Important: kernel security and bug fix update",
+	"details": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: FUSE filesystem low-privileged user privileges escalation (CVE-2023-0386)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Update intel_idle for Eaglestream/Sapphire Rapids support (BZ#2168361)\n* AlmaLinux9: An application stopped on robust futex used via pthread_mutex_lock() (BZ#2168836)",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "bpftool"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-abi-stablelists"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-core"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-cross-headers"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-debug"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-debug-core"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-debug-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-debug-devel-matched"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-debug-modules"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-debug-modules-extra"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-devel-matched"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-doc"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-modules"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-modules-extra"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-tools"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-tools-libs"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-tools-libs-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-zfcpdump"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-zfcpdump-core"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-zfcpdump-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-zfcpdump-devel-matched"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-zfcpdump-modules"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "kernel-zfcpdump-modules-extra"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "perf"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "python3-perf"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.14.0-162.23.1.el9_1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2023:1703.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://access.redhat.com/errata/RHSA-2023:1703"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://access.redhat.com/security/cve/CVE-2023-0386"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://bugzilla.redhat.com/2159505"
+		},
+		{
+			"type": "ADVISORY",
+			"url": "https://errata.almalinux.org/9/ALSA-2023-1703.html"
+		}
+	]
+}

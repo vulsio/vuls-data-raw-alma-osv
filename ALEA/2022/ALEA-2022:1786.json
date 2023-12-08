@@ -1,0 +1,38 @@
+{
+	"schema_version": "1.6.0",
+	"id": "ALEA-2022:1786",
+	"modified": "2022-05-10T08:01:19Z",
+	"published": "2022-05-10T08:01:20Z",
+	"summary": "rig bug fix and enhancement update",
+	"details": "For detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "rig"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.0-3.el8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALEA-2022:1786.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://errata.almalinux.org/8/ALEA-2022-1786.html"
+		}
+	]
+}
