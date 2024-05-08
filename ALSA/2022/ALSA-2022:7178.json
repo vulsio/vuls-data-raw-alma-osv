@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "ALSA-2022:7178",
-	"modified": "2022-11-20T17:28:30Z",
+	"modified": "2022-10-26T06:48:26Z",
 	"published": "2022-10-25T00:00:00Z",
 	"related": [
 		"CVE-2022-39236",
@@ -30,50 +30,6 @@
 						},
 						{
 							"fixed": "102.4.0-1.el9_0.alma"
-						}
-					]
-				}
-			],
-			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2022:7178.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "AlmaLinux:9",
-				"name": "thunderbird"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						},
-						{
-							"fixed": "102.4.0-1.el9_0.alma.plus"
-						}
-					]
-				}
-			],
-			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2022:7178.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "AlmaLinux:9",
-				"name": "thunderbird"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						},
-						{
-							"fixed": "102.4.0-1.el9_0.alma.plus.1"
 						}
 					]
 				}
