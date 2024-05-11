@@ -13,6 +13,28 @@
 		{
 			"package": {
 				"ecosystem": "AlmaLinux:9",
+				"name": "gnutls"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.8.3-4.el9_4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2024:2570.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
 				"name": "gnutls-c++"
 			},
 			"ranges": [

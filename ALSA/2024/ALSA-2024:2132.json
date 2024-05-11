@@ -124,6 +124,28 @@
 		{
 			"package": {
 				"ecosystem": "AlmaLinux:9",
+				"name": "fence-agents-lpar"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.10.0-62.el9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2024:2132.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
 				"name": "fence-agents-virsh"
 			},
 			"ranges": [

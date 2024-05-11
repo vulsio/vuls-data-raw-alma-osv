@@ -12,7 +12,51 @@
 		{
 			"package": {
 				"ecosystem": "AlmaLinux:9",
+				"name": "file"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.39-16.el9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2024:2512.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
 				"name": "file-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.39-16.el9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2024:2512.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "file-libs"
 			},
 			"ranges": [
 				{

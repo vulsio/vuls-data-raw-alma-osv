@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "ALSA-2024:2463",
-	"modified": "2024-05-07T14:56:16Z",
+	"modified": "2024-05-07T15:07:01Z",
 	"published": "2024-04-30T00:00:00Z",
 	"related": [
 		"CVE-2023-7008"
@@ -12,7 +12,73 @@
 		{
 			"package": {
 				"ecosystem": "AlmaLinux:9",
+				"name": "rhel-net-naming-sysattrs"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "252-32.el9_4.alma.1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2024:2463.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "systemd"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "252-32.el9_4.alma.1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2024:2463.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
 				"name": "systemd-boot-unsigned"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "252-32.el9_4.alma.1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2024:2463.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "systemd-container"
 			},
 			"ranges": [
 				{
@@ -57,6 +123,138 @@
 			"package": {
 				"ecosystem": "AlmaLinux:9",
 				"name": "systemd-journal-remote"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "252-32.el9_4.alma.1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2024:2463.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "systemd-libs"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "252-32.el9_4.alma.1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2024:2463.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "systemd-oomd"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "252-32.el9_4.alma.1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2024:2463.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "systemd-pam"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "252-32.el9_4.alma.1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2024:2463.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "systemd-resolved"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "252-32.el9_4.alma.1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2024:2463.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "systemd-rpm-macros"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "252-32.el9_4.alma.1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2024:2463.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "systemd-udev"
 			},
 			"ranges": [
 				{

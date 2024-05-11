@@ -12,6 +12,28 @@
 		{
 			"package": {
 				"ecosystem": "AlmaLinux:9",
+				"name": "pam"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.5.1-19.el9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2024:2438.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "AlmaLinux:9",
 				"name": "pam-devel"
 			},
 			"ranges": [
