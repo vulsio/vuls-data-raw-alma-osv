@@ -22,28 +22,6 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "102.3.0-4.el8_6.alma.plus"
-						}
-					]
-				}
-			],
-			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2022:7023.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "AlmaLinux:8",
-				"name": "thunderbird"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						},
-						{
 							"fixed": "102.3.0-4.el8_6.alma"
 						}
 					]

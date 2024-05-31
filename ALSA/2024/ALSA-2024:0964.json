@@ -29,28 +29,6 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "115.8.0-1.el8_9.alma.plus"
-						}
-					]
-				}
-			],
-			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2024:0964.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "AlmaLinux:8",
-				"name": "thunderbird"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						},
-						{
 							"fixed": "115.8.0-1.el8_9.alma"
 						}
 					]
