@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "ALSA-2025:0426",
-	"modified": "2025-01-23T14:58:45Z",
+	"modified": "2025-01-23T14:02:42Z",
 	"published": "2025-01-22T00:00:00Z",
 	"related": [
 		"CVE-2025-21502"
@@ -11,7 +11,7 @@
 	"affected": [
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk"
 			},
@@ -23,18 +23,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-demo",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-demo"
 			},
@@ -46,18 +46,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-demo-fastdebug",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-demo-fastdebug"
 			},
@@ -69,18 +69,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-demo-slowdebug",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-demo-slowdebug"
 			},
@@ -92,18 +92,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-devel",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-devel"
 			},
@@ -115,18 +115,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-devel-fastdebug",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-devel-fastdebug"
 			},
@@ -138,18 +138,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-devel-slowdebug",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-devel-slowdebug"
 			},
@@ -161,18 +161,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-fastdebug",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-fastdebug"
 			},
@@ -184,18 +184,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-headless",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-headless"
 			},
@@ -207,18 +207,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-headless-fastdebug",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-headless-fastdebug"
 			},
@@ -230,18 +230,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-headless-slowdebug",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-headless-slowdebug"
 			},
@@ -253,18 +253,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-javadoc",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-javadoc"
 			},
@@ -276,18 +276,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-javadoc-zip",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-javadoc-zip"
 			},
@@ -299,18 +299,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-jmods",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-jmods"
 			},
@@ -322,18 +322,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-jmods-fastdebug",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-jmods-fastdebug"
 			},
@@ -345,18 +345,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-jmods-slowdebug",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-jmods-slowdebug"
 			},
@@ -368,18 +368,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-slowdebug",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-slowdebug"
 			},
@@ -391,18 +391,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-src",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-src"
 			},
@@ -414,18 +414,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-src-fastdebug",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-src-fastdebug"
 			},
@@ -437,18 +437,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-src-slowdebug",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-src-slowdebug"
 			},
@@ -460,18 +460,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-static-libs",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-static-libs"
 			},
@@ -483,18 +483,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-static-libs-fastdebug",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-static-libs-fastdebug"
 			},
@@ -506,18 +506,18 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		},
 		{
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-21-openjdk-static-libs-slowdebug",
 				"purl": "pkg:rpm/almalinux/java-21-openjdk-static-libs-slowdebug"
 			},
@@ -529,13 +529,13 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:21.0.6.0.7-1.el9.alma.1"
+							"fixed": "1:21.0.6.0.7-1.el8"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux9/ALSA-2025:0426.json"
+				"source": "https://github.com/AlmaLinux/osv-database/blob/master/advisories/almalinux8/ALSA-2025:0426.json"
 			}
 		}
 	],
@@ -550,7 +550,7 @@
 		},
 		{
 			"type": "ADVISORY",
-			"url": "https://errata.almalinux.org/9/ALSA-2025-0426.html"
+			"url": "https://errata.almalinux.org/8/ALSA-2025-0426.html"
 		}
 	]
 }
